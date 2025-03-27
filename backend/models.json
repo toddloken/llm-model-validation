@@ -1,0 +1,54 @@
+{
+  "id": "anthropic",
+  "name": "Anthropic Claude",
+  "model": "claude-3-opus-20240229",
+  "provider": "anthropic",
+  "invoker": "fmv.LLMMessageInvoker(provider=\"anthropic\")",
+  "providerClass": "ChatAnthropic",
+  "description": "Anthropic's Claude 3 Opus model - advanced reasoning capabilities"
+},
+{
+"id": "openai",
+"name": "OpenAI GPT-4",
+"model": "gpt-4",
+"provider": "openai",
+"invoker": "fmv.LLMMessageInvoker(provider=\"openai\")",
+"providerClass": "ChatOpenAI",
+"description": "OpenAI's GPT-4 model - strong general capabilities"
+},
+{
+"id": "mistral",
+"name": "Mistral Large",
+"model": "mistral-large-latest",
+"provider": "mistral",
+"invoker": "fmv.LLMMessageInvoker(provider=\"mistral\")",
+"providerClass": "ChatMistralAI",
+"description": "Mistral AI's Large model - efficient with strong performance"
+},
+{
+"id": "ollama",
+"name": "Llama 3",
+"model": "llama3",
+"provider": "ollama",
+"invoker": null,
+"providerClass": "ChatOllama",
+"description": "Meta's Llama 3 model running locally via Ollama"
+},
+{
+"id": "google",
+"name": "Google Gemini",
+"model": "gemini-1.5-pro",
+"provider": "google",
+"invoker": "fmv.LLMMessageInvoker(provider=\"google\")",
+"providerClass": "ChatGoogleGenerativeAI",
+"description": "Google's Gemini 1.5 Pro model - multimodal capabilities"
+},
+{
+"id": "inhouse",
+"name": "In-house Model",
+"model": "internal-latest",
+"provider": "inhouse",
+"invoker": "fmv.LLMMessageInvoker(provider=\"inhouse\")",
+"providerClass": null,
+"description": "Custom in-house LLM implementation"
+}
