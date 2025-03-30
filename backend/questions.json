@@ -1,0 +1,102 @@
+{
+    "1": {
+        "system_message": "You are a Protestant Christian Theologian",
+        "human_message": "How many books are in the Protestant Bible - please just return the total number divided by old testament and new testament",
+        "answer_message": "You are a Protestant Christian Theologian judging the answer and if the result contains the Bible is 66 books and the new testament contains 27 books and the old testament contains 39 books then return only: True otherwise return only: False"
+    },
+    "2": {
+        "system_message": "You are a mortgage banker",
+        "human_message": "Your customer makes an annual income of $80,000 per year. If they follow the 2.5 multiple lending rule which states a customer can only borrow 2.5 times their income. How much can they borrow?",
+        "answer_message": "You are a mortgage banker If the answer contains $200,000 or less then return only: True otherwise return only: False"
+    },
+    "3": {
+        "system_message": "You are a hockey historian",
+        "human_message": "On March 7th, 1954 at the world championships in Sweden who won between the Soviet Union and Canada?",
+        "answer_message": "You are a hockey historian If the answer contains Soviet Union then return only: True otherwise return only: False"
+    },
+    "4": {
+        "system_message": "You are an organic chemist",
+        "human_message": "Is the product of a Friedel-Crafts acylation an acylbenzene or an alkylbenzene?",
+        "answer_message": "You are an organic chemist If the answer yes it is an acylbenzene return only: True otherwise return only: False"
+    },
+    "5": {
+        "system_message": "You are a physicist",
+        "human_message": "You throw a 0.145 kilogram baseball straight up in the air giving it an initial velocity of magnitude 20.0 meters per second. Use conservation of energy to find how high the baseball goes ignoring air resistence?",
+        "answer_message": "You are a physicist if the answer is between 20.3 and 20.5 meters return only: True otherwise return only: False"
+    },
+    "6": {
+        "system_message": "You are an human resources application validating a form within the application has been filled out correctly and you will receive a comma separated lists with the valid values of T, F, -.",
+        "human_message": "this is the list of comma separated values entered: -,-,-,-,-",
+        "answer_message": "You are an human resources application validating a form within the application has been filled out correctly and you will receive a comma separated lists with the valid values of T, F, -. if the response does not have a T or an F in the list of comma separated values then return only the value: True and no other text otherwise return only the value: False and no other text"
+    },
+    "7": {
+        "system_message": "You are an human resources application validating a form within the application has been filled out correctly and you will receive a comma separated lists with the valid values of T, F, -.",
+        "human_message": "this is the list of comma separated values entered: T,T,T,T,T",
+        "answer_message": "You are an human resources application validating a form within the application has been filled out correctly and you will receive a comma separated lists with the valid values of T, F, -. if the response only has T in the list of comma separated values then return only the value: True and no other text otherwise return only the value: False and no other text"
+    },
+    "8": {
+        "system_message": "You are an human resources application validating a form within the application has been filled out correctly and you will receive a comma separated lists with the valid values of T, F, -.",
+        "human_message": "this is the list of comma separated values entered: T,T,F,T,T",
+        "answer_message": "You are an human resources application validating a form within the application has been filled out correctly and you will receive a comma separated lists with the valid values of T, F, -. if the response only has T in the list of comma separated values then return only the value: False and no other text otherwise return only the value: True and no other text"
+    },
+    "9": {
+        "system_message": "You are an human resources application validating a form within the application has been filled out correctly and you will receive a comma separated lists with the valid values of T, F, -.",
+        "human_message": "this is the list of comma separated values entered: F,F,F,F,F",
+        "answer_message": "You are an human resources application validating a form within the application has been filled out correctly and you will receive a comma separated lists with the valid values of T, F, -. if the response only has T in the list of comma separated values then return only the value: False and no other text otherwise return only the value: True and no other text"
+    },
+    "10": {
+        "system_message": "You are an human resources application validating a form within the application has been filled out correctly and you will receive a comma separated lists with the valid values of T, F, -.",
+        "human_message": "this is the list of comma separated values entered: T,F,-,F,T",
+        "answer_message": "You are an human resources application validating a form within the application has been filled out correctly and you will receive a comma separated lists with the valid values of T, F, -. if the response only has T in the list of comma separated values then return only the value: False and no other text otherwise return only the value: True and no other text"
+    },
+    "11": {
+        "system_message": "You are an human resources application validating the results of a decision tree",
+        "human_message": "The is the list of comma separated values entered = T,T,T,T,T",
+        "answer_message": "If the response entered in the list of comma separated values = T,T,T,T,T then return only the value: True and no other text otherwise return only the value: False and no other text"
+    },
+    "12": {
+        "system_message": "You are an human resources application validating the results of a decision tree",
+        "human_message": "The is the list of comma separated values entered = F,F,F,F,F",
+        "answer_message": "If the response entered in the list of comma separated values = F,F,F,F,F then return only the value: True and no other text otherwise return only the value: False and no other text"
+    },
+    "13": {
+        "system_message": "You are an human resources application validating the results of a decision tree",
+        "human_message": "The is the list of comma separated values entered = T,F,F,F,F",
+        "answer_message": "If the response entered in the list of comma separated values = T,F,F,F,F then return only the value: True and no other text otherwise return only the value: False and no other text"
+    },
+    "14": {
+        "system_message": "You are an human resources application validating the results of a decision tree",
+        "human_message": "The is the list of comma separated values entered = T,F,F,F,T",
+        "answer_message": "If the response entered in the list of comma separated values = T,F,F,F,T then return only the value: True and no other text otherwise return only the value: False and no other text"
+    },
+    "15": {
+        "system_message": "You are an human resources application validating the results of a decision tree",
+        "human_message": "The is the list of comma separated values entered = T,F,F,T,T",
+        "answer_message": "If the response entered in the list of comma separated values = T,F,F,T,T then return only the value: True and no other text otherwise return only the value: False and no other text"
+    },
+    "16": {
+        "system_message": "You are an human resources application validating whether an employee has any PTO remaining",
+        "human_message": "The value of PTO remaining is 100 hours",
+        "answer_message": "If the value of PTO is >0 then return only the value: True and no other text otherwise return only the value: False and no other text"
+    },
+    "17": {
+        "system_message": "You are an human resources application validating whether an employee has any PTO remaining",
+        "human_message": "The value of PTO remaining is 1 hours",
+        "answer_message": "If the value of PTO is >0 then return only the value: True and no other text otherwise return only the value: False and no other text"
+    },
+    "18": {
+        "system_message": "You are an human resources application validating whether an employee has any PTO remaining",
+        "human_message": "The value of PTO remaining is 0 hours",
+        "answer_message": "If the value of PTO is less than or equal to 0 then return only the value: True and no other text otherwise return only the value: False and no other text"
+    },
+    "19": {
+        "system_message": "You are an human resources application validating whether an employee has any PTO remaining",
+        "human_message": "The value of PTO remaining is -1 hours",
+        "answer_message": "If the value of PTO is less than or equal to 0 then return only the value: True and no other text otherwise return only the value: False and no other text"
+    },
+    "20": {
+        "system_message": "You are an human resources application validating whether an employee has any PTO remaining",
+        "human_message": "The value of PTO remaining is -100 hours",
+        "answer_message": "If the value of PTO is less than or equal to 0 then return only the value: True and no other text otherwise return only the value: False and no other text"
+    }
+}
